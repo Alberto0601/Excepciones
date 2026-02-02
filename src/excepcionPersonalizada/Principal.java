@@ -29,6 +29,5 @@ public class Principal {
         }catch (EdadInvalidaException e){
             System.err.println("Error al registrar usuario (Caso 4)" + e.getMessage());
         }
-
     }
 }
