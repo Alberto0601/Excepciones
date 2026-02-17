@@ -1,6 +1,7 @@
 package ejer001;
 
 public class ComprobacionTelefono {
+
     public static void comprobar(String num) throws TelefonoException {//hacer un metodo con las comprobaciones
 
         if (num.length() != 9) {

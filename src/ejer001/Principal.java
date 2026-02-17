@@ -2,7 +2,7 @@ package ejer001;
 
 public class Principal {
     static void main() {
-        try {//dnde se pone el codigo peligroso
+        try {
             ComprobacionTelefono.comprobar("99967");
         } catch (TelefonoException e) {//recibe la excepcion
             System.err.println(e.getMessage());//muestra el mensaje
