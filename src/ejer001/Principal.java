@@ -4,6 +4,7 @@ public class Principal {
     static void main() {
         try {
             ComprobacionTelefono.comprobar("99967");
+
         } catch (TelefonoException e) {//recibe la excepcion
             System.err.println(e.getMessage());//muestra el mensaje
         }

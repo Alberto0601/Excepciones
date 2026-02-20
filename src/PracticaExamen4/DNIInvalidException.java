@@ -3,6 +3,7 @@ package PracticaExamen4;
 public class DNIInvalidException extends RuntimeException { //hacerla que herede de exception
 
     public DNIInvalidException(){
+
         super("DNI no valido");
     }
 

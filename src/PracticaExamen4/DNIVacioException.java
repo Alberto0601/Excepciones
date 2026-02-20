@@ -3,6 +3,7 @@ package PracticaExamen4;
 public class DNIVacioException extends RuntimeException {
 
     public DNIVacioException(){
+
         super("DNI vacio");
     }
 
@@ -12,6 +13,7 @@ public class DNIVacioException extends RuntimeException {
     }
 
     public DNIVacioException(String message, Throwable cause){
+
         super(message, cause);
     }
 }

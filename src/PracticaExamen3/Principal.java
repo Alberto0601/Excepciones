@@ -1,5 +1,7 @@
 package PracticaExamen3;
 
+import java.rmi.ServerError;
+
 public class Principal {
     static void main() {
         try {
